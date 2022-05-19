@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador y desencriptador de textos.</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img id="alura" src="./imagenes/logo.png">
+        </header>
+        <main>
+            <section>
+                <textarea type="text" cols="40" rows="6" placeholder="Ingrese el texto aquí" class="entrada">
+                </textarea>
+                <img id="aviso" src="./imagenes/advertencia.png">
+                <h6>Sólo letras minúsculas y sin acentos.</h6>    
+                <div>
+                    <button type="button" onclick="btnencriptar()" class="encr">Encriptar</button>
+                    <button type="button" onclick="btndesencriptar()" class="dscr">Desencriptar</button>
+                </div>
+
+            </section>
+
+            <section>
+                <button type="button" onclick="copiarTexto()" class="copiar">Copiar</button>
+                <textarea readonly type="text" cols="18" rows="8" class="salida"></textarea>
+                <p id="negritas">Ningún mensaje fue encontrado.</p>
+                <p id="claro">Ingresa aquí el texto que desees desencriptar.</p>
+                <img id="muñeco" src="./imagenes/muñeco.png">
+            </section>
+            
+        </main>
+        <script src="./index.js"></script>
+    </body>
+</html>

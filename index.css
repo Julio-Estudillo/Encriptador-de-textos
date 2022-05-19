@@ -1,0 +1,213 @@
+*{
+    margin: 5px;
+    padding: 0;
+    background: #E5E5E5;
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+#alura{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#negritas{
+    position: absolute;
+    margin: 200px 200px;
+    left: 840px;
+
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#claro{
+    position: absolute;
+    margin: 260px 250px;
+    left: 790px;
+
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+section .entrada{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+.copiar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    display: block;
+    width: 150px;
+    height: 70px;
+    border-radius: 10%;
+    gap: 8px;
+    background: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: center;
+    font-style: normal;
+    color: #FFFFFF;
+    margin: 70px 840px;
+    
+
+
+    
+}
+section .salida{
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0.08);
+    border-radius: 30px;
+
+    text-align: justify;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+main{
+    display: flex;
+}
+div{
+    position: absolute;
+    width: 851px;
+    height: 200px;
+    left: 240px;
+    top: 670px;
+}
+#aviso{
+    position: absolute;
+    margin: 550px 225px;
+}
+h6{
+    position: absolute;
+    width: 285px;
+    height: 18px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 550px 250px;
+}
+.dscr{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: -78px 375px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+button{
+    width: 280px;
+    height: 19px;
+    text-align: center;
+}
+.encr{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: center;
+    font-style: normal;
+    color: #FFFFFF;
+    margin: 10px -10px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    
+}
+.encr button :active{
+    border-color: #FFFFFF;
+}
+#muñeco{
+    position: absolute;
+    background: #FFFFFF;
+    margin: -100px 0px;
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 283px;
+}
