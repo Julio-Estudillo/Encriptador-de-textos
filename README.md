@@ -1,4 +1,5 @@
-# Julio-Estudillo // Version 1.0
+# Julio-Estudillo
+Version 1.0
 Proyecto encriptador y desencriptador de textos.
 #challengeonecodificador2
 #OracleNextEducation
